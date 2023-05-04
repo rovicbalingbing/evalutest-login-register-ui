@@ -6,7 +6,6 @@
          url('../fonts/nexa_slab_regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 :root {
@@ -60,6 +59,7 @@
 .form-outline input {
     font-size: 1rem;
     border-radius: 100px;
+    font-family: 'Inter', sans-serif;
 }
 
 .btn:hover {
