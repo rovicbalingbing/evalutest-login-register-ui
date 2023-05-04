@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+@font-face {
+    font-family: 'nexa_slab_regular_freeregular';
+    src: url('../fonts/nexa_slab_regular-webfont.woff2') format('woff2'),
+         url('../fonts/nexa_slab_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+:root {
+    --main-color: #3F1651;
+    --primary-color: #A0D1D5;
+    --secondary-color: #F89F5B;
+    --third-color: #FB8500;
+    --fourth-color: #653780;
+    --fifth-color: #9C3587;
+    --sixth-color: #E53F71; 
+    --black: #13131a; 
+    --bg: #FFFFFF; 
+    --border: 1px solid rgba(0, 0, 0, 0.3);
+    --box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    --border-radius: 50px;
+}
+
+* {
+    font-family: 'nexa_slab_regular_freeregular';
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bg {
+    background-color: var(--primary-color);
+}
+
+.card-body {
+    background-color: var(--main-color);
+}
+
+.logo-img {
+    width: 100px;
+    height: 100px;
+}
+
+.title-logo {
+    font-family: 'nexa_slab_regular_freeregular';
+    color: var(--bg);
+}
+
+.my-4 {
+    border: 1px solid var(--third-color);
+}
+
+.heading {
+    color: var(--bg);
+}
+
+.form-outline input {
+    font-size: 1rem;
+    border-radius: 100px;
+}
+
+.btn:hover {
+    background-color: #df7d33;
+    border-radius: 100px;
+}
+
+.go-to {
+    font-family: 'Inter', sans-serif;
+    margin-top: 30px;
+    color: var(--bg);
+}
+
+.go-to a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
